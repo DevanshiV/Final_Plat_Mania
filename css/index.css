@@ -129,16 +129,28 @@ body, html
     margin-right: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.top-nav a {
+.top-nav a
+{
     position: relative;
     /* left: 30px;; */
-    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 30px;
+    border:0px;
+    margin:0px ;
+    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
     font-size: 17px;
   }
+  .top-nav ul
+  {
+    padding-left: 5%;
+  }
+  .top-nav li
+  {
+      padding-left: 30px;
+  }
+ 
 #platmania
 {
     text-emphasis-color: white;
